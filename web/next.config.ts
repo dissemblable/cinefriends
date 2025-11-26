@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images: { domains: ["image.tmdb.org", "www.themoviedb.org"] },
+  output: 'export',
+  images: {
+    unoptimized: true,
+    domains: ["image.tmdb.org", "www.themoviedb.org"]
+  },
   /* config options here */
 };
 

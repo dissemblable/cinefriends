@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "Bash(pnpm add:*)",
+      "Bash(if exist \"c:\\Users\\jules\\Documents\\cours\\UX-UI\\cinefriends\\web\\app\\(auth)\\signin\\index.tsx\" del \"c:\\Users\\jules\\Documents\\cours\\UX-UI\\cinefriends\\web\\app\\(auth)\\signin\\index.tsx\")",
+      "Bash(pnpm db:generate:*)",
+      "Bash(pnpm db:push:*)",
+      "Bash(dir /S /B /A:D)",
+      "Bash(findstr:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
