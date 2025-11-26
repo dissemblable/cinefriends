@@ -1,0 +1,15 @@
+{
+  "name": "cinefriends",
+  "scripts": {
+    "dev": "dotenv -e .env -- pnpm -r --parallel dev",
+    "dev:web": "dotenv -e .env -- pnpm --filter web dev",
+    "dev:api": "dotenv -e .env -- pnpm --filter api dev",
+    "db:generate": "dotenv -e .env -- pnpm --filter api db:generate",
+    "db:push": "dotenv -e .env -- pnpm --filter api db:push",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r --parallel run start"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^11.0.0"
+  }
+}
